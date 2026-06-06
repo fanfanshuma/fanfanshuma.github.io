@@ -1,0 +1,102 @@
+{
+  "simulator": {
+    "device": {
+      "name": "iPhone 16 Pro Max",
+      "model": "iPhone16,2",
+      "identifier": "com.apple.CoreSimulator.SimDeviceType.iPhone-16-pro-max",
+      "productName": "iPhone 16 Pro Max"
+    },
+    "system": {
+      "osVersion": "17.5",
+      "buildNumber": "21F79",
+      "releaseType": "release"
+    },
+    "hardware": {
+      "screen": {
+        "diagonal": "6.9 inches",
+        "resolution": {
+          "width": 1320,
+          "height": 2868,
+          "scale": 3
+        },
+        "dynamicIsland": {
+          "enabled": true,
+          "type": "pill_shaped",
+          "width": 188,
+          "height": 90,
+          "cornerRadius": 45,
+          "topOffset": 12,
+          "backgroundColor": "#000000",
+          "features": [
+            "live_activities",
+            "notification_alerts",
+            "camera_indicator",
+            "face_id_indicator"
+          ]
+        }
+      },
+      "processor": "A18 Pro",
+      "memory": "8GB",
+      "storage": "256GB",
+      "camera": {
+        "rear": {
+          "main": "48MP",
+          "ultrawide": "12MP",
+          "telephoto": "12MP (5x optical zoom)",
+          "lidar": true
+        },
+        "front": "12MP (TrueDepth with Face ID)"
+      },
+      "biometrics": {
+        "faceId": true,
+        "dynamicIslandIntegration": true
+      },
+      "battery": "4685 mAh"
+    },
+    "features": {
+      "actionButton": true,
+      "alwaysOnDisplay": true,
+      "proMotion": true,
+      "proMotionHz": 120,
+      "ceramicShield": true,
+      "titaniumDesign": true,
+      "usb_c": true,
+      "esim": true,
+      "wifi": "WiFi 7",
+      "bluetooth": "5.4"
+    },
+    "capabilities": {
+      "dynamicIslandActivities": [
+        "timer",
+        "stopwatch",
+        "music_playback",
+        "navigation",
+        "phone_call",
+        "screen_recording",
+        "live_activities"
+      ],
+      "notchSupport": false,
+      "safeAreaInsets": {
+        "top": 59,
+        "bottom": 34,
+        "left": 0,
+        "right": 0
+      }
+    },
+    "development": {
+      "xcodeVersion": "15.4+",
+      "deploymentTarget": "17.5",
+      "platformVersion": "17.5",
+      "arch": [
+        "arm64"
+      ]
+    }
+  },
+  "xcode_configuration": {
+    "simctl_create_command": "xcrun simctl create 'iPhone 16 Pro Max iOS 17.5' com.apple.CoreSimulator.SimDeviceType.iPhone-16-pro-max com.apple.CoreSimulator.SimRuntime.iOS-17-5",
+    "swift_ui_preview": {
+      "device": "iPhone 16 Pro Max",
+      "os_version": "17.5"
+    }
+  }
+}
